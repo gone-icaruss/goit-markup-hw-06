@@ -857,7 +857,6 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
   background-color: var(--main-bgc);
   padding: 40px;
 }
@@ -896,6 +895,10 @@ img {
   flex-direction: column;
 }
 
+.modal-form-field {
+  margin-bottom: 20px;
+}
+
 .modal-title {
   margin-bottom: 12px;
   font-family: var(--main-font);
@@ -911,7 +914,6 @@ img {
   position: relative;
   display: block;
   margin-top: 4px;
-  margin-bottom: 20px;
 }
 
 .modal-form-input {
@@ -973,7 +975,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
 
-  margin-top: 20px;
   margin-bottom: 30px;
 }
 
@@ -990,7 +991,7 @@ img {
 }
 
 .modal-form-term:checked + .modal-form-check-desc::before {
-  background-size: contain;
+  background-size: cover;
   background-origin: border-box;
 
   border-color: var(--focus-color);
